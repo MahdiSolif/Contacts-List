@@ -18,7 +18,7 @@ public class MainTable extends javax.swing.JFrame {
         int x = jTable1.getSelectedRow();
         return x;
     }
-
+//
     public void Showing() {
         String sql = "select * from phonecontacts";
         String[][] data = dal.Select(sql);
