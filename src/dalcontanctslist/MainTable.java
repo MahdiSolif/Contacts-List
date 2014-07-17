@@ -134,7 +134,7 @@ public class MainTable extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//test changes added
     private void tfsearchCaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_tfsearchCaretUpdate
         String sql = "select * from phonecontacts where Name like '%%%s%%'or"
                 + " Last_Name like '%%%s%%'"
